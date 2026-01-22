@@ -116,6 +116,7 @@ export function IncidentsPage() {
       <Card withBorder radius="md" p="md">
         <Group mb="md" wrap="wrap">
           <TextInput
+            label="Search"
             value={q}
             onChange={(e) => setQ(e.currentTarget.value)}
             leftSection={<IconSearch size={16} />}

@@ -28,7 +28,7 @@ export function AppTopbar() {
           <Menu.Dropdown>
             <Menu.Label>Account</Menu.Label>
             <Menu.Item leftSection={<IconUser size={16} />}>
-              <Text size="sm">esteban</Text>
+              <Text size="sm">Esteban</Text>
             </Menu.Item>
             <Menu.Divider />
             <Menu.Item
